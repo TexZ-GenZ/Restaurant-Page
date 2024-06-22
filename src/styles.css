@@ -44,3 +44,20 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  /* ///////////////////////////// */
+
+  html,body{
+    height: 100%;
+  }
+
+  body{
+    background-image: url(media/rich-chocolate-lava-cake-oozing-with-molten-goodness_1007506-5258-transformed.jpeg);
+    background-size: cover; /* Cover entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+  }
+
+  header{
+    display: flex;
+  }
