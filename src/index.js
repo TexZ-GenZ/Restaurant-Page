@@ -5,6 +5,7 @@ import loadContactPage from './pages/contact';
 
 const navBar = document.querySelector('nav');
 const body = document.getElementById('content');
+body.innerHTML = loadHomePage();
 
 function createBtn(buttonName, loadFunction){
     const button = document.createElement('button');
