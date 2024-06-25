@@ -60,9 +60,13 @@
   }
 
   header{
-    margin-top: 2rem;
+    padding: 2rem;
+    z-index: -10;
     display: flex;
     justify-content: center;
+    background-color: #230b04;
+    border-bottom: 1px solid #fdb645;
+    box-shadow: 0 0 5px #fdb645;
   }
 
   #content{
@@ -70,8 +74,8 @@
     width: clamp(500px, 45%, 620px);
     height: 80%;
     border-radius: 28px;
-    border: 1px solid black;
-    box-shadow: 0 0 20px black;
+    border: 1px solid #fdb645;
+    box-shadow: 0 0 15px #fdb645;
     color: white;
     backdrop-filter: blur(7px);
     display: flex;
@@ -83,7 +87,7 @@
     padding: 0 1rem;
     background-color: transparent;
     backdrop-filter: blur(5px);
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 5px #fdb645;
     border: 1px solid black;
     transition: 0.1s;
     color: #fdb645;
