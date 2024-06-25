@@ -49,6 +49,7 @@
 
   html,body{
     height: 100%;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   body{
@@ -59,7 +60,52 @@
   }
 
   header{
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
+  }
+
+  #content{
+    margin: 2rem auto;
+    width: clamp(500px, 45%, 620px);
+    height: 80%;
+    border-radius: 28px;
+    border: 1px solid black;
+    box-shadow: 0 0 20px black;
+    color: white;
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: center;
+  }
+  nav > button{
+    margin: 0 1rem;
+    border-radius: 10px;
+    padding: 0 1rem;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px black;
+    border: 1px solid black;
+    transition: 0.1s;
+    color: #fdb645;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+  }
+  nav > button:hover{
+    scale: 1.05;
+  }
+  nav > button:active{
+    scale: 1.01;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
     gap: 2rem;
+  }
+
+  img{
+    border-radius: 12px;
+    box-shadow: 0 0 10px #fdb645;
   }
